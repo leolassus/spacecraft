@@ -9,6 +9,7 @@ export default function App() {
     alert('goBack pressed!');
   }
 
+  function Condiion() {
   return (
     <View>
       <Appbar.Header>
@@ -345,4 +346,4 @@ export default function App() {
       </View>
     </View>
   );
-}
+}}

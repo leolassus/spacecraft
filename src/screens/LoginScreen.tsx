@@ -17,18 +17,20 @@ function Loginform() {
     <View style={styles.form}>
       <TextInput style={styles.email} label="Email" onChangeText={(email: string) => setEmail(email)} />
       <TextInput style={styles.password} label="Password" onChangeText={(password: string) => setPassword(password)} />
-      <Button icon="check" mode="contained" onPress={() => console.log('Il a appuyé ce fou malade')}>
+      <Button icon="check" mode="contained" onPress={() => console.log('Oui ?????')}>
         Se connecter</Button>
     </View>
   )
 }
+
+
 
 export default function App() {
 
   return (
     <View style={styles.container}>
       <View style={styles.head}>
-        <Text style={styles.title}>Welcome !</Text>
+        <Text style={styles.title}>Bonjour.</Text>
       </View>
 
       <Loginform />

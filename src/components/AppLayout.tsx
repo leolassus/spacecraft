@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Headline } from 'react-native-paper';
-import { NetworkProvider } from 'react-native-offline';
+//import { NetworkProvider } from 'react-native-offline';
 
 // 🥑 Add a `NetworkProvider
 // import { NetworkProvider } from 'react-native-offline';

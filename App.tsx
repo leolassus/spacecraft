@@ -1,18 +1,13 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import AppLayout from './AppLayout';
+import LoginScreen from './src/screens/LoginScreen';
+import StarshipFeedScreen from './src/screens/LoginScreen';
 
-const App = () => {
-  // 🥑 Query data with fetchAsync
-  // const { status, error, data } = useQuery('starships', () =>
-  //   fetchAsync(`https://swapi.dev/api/starships/`)
-  // );
-
+export default function App() {
   return (
-    <AppLayout title="Starships">
-      <Text></Text>
-    </AppLayout>
+    <View>
+      <LoginScreen/>
+      
+    </View>
   );
-};
-
-export default App;
+}

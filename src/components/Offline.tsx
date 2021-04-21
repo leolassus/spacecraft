@@ -6,7 +6,7 @@ const Offline = () => {
   return (
     <View>
        
-      <Text>{ ActivityIndicator }</Text>
+      <Text>offline</Text>
     </View>
   );
 };
