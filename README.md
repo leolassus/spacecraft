@@ -12,3 +12,6 @@ navigation : contient les elements de la navigation
 screen : contient tout les differents écran de l'application 
 
 les données sont stockées en dur dans le Data.ts !
+
+lancer le projet : yarn (ou yarn.cmd)
+yarn start (ou yarn.cmd start)
